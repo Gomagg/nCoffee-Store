@@ -1,0 +1,171 @@
+/* Joe's coffee css */
+body {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Verdana;
+    /*border: 0px solid;
+    box-shadow: 0px 0px 7px 2px #5c5045;
+    border-style: inset;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: auto;
+    padding-right: auto;
+    align-items: center;*/
+}
+
+
+header {
+    font-weight: bold;
+}
+
+.headerlogo {
+    float: left;
+    margin-right: 10px;
+}
+
+    .headerlogo > img {
+        height: 44px;
+        width: 45px;
+    }
+
+#mainHeader {
+    height: 80px;
+}
+
+.searchbox {
+    float: right;
+    padding: 5px;
+    margin: 10px 10px;
+    width: 200px;
+}
+
+#headername {
+    font-size: 40px;
+    color: #603813;
+    padding: 15px;
+    margin: 8px 0px;
+    font-weight: bold;
+}
+
+#welcomeimage {
+    margin-top: 20px;
+    float: left;
+    width: 700px;
+}
+
+#coffeeofthemonth {
+    margin-top: 20px;
+    float: right;
+    width: 200px;
+    height: 300px;
+    margin-right: 70px;
+}
+
+    #coffeeofthemonth > img {
+        width: 250px;
+        height: 480px;
+    }
+
+#welcometext {
+    float: left;
+    width: 70%;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+    #welcometext > header {
+    color: #603813;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 3px;
+    margin-right: 0px;
+}
+
+#events {
+    float: right;
+    width: 30%;
+    margin: 60px 0px 20px 0px;
+}
+
+    #events > header {
+        color: #603813;
+        font-size: 15px;
+        margin-bottom: 3px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    #events > ul {
+        list-style: none;
+    }
+
+        #events > ul > li {
+            margin-bottom: 3px;
+            margin-left: 30px;
+        }
+
+    #events > ul > li > a {
+    color: lightseagreen;
+}
+
+.backgroundgradient {
+    background-color: #603813;
+    color: white;
+}
+
+img.productarticlethumbnail {
+    width: 150px;
+    height: 200px;
+}
+
+span a {
+    color: #603813;
+    text-decoration-line: none;
+}
+
+#bestsellers {
+    height: 100px;
+    width: 700px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.productarticleprice {
+    color: green;
+    font-weight: bold;
+}
+
+.coffeebestsellers {
+    display: flex;
+}
+
+.accessoriesbestsellers {
+    display: flex;
+}
+
+.productarticlemoreinfo {
+    font-size: 12px;
+    color: #603813;
+    margin-top: 5px;
+}
+
+footer {
+    clear: both;
+    width: 100%;
+    background-color: #5c5045;
+    margin: 1370px 0px 20px 0px;
+    padding: 5px;
+}
+
+.smalltext {
+    font-size: 10px;
+}
+
+/* All coffees page style */
+.blockheader {
+    font-size: 30px;
+    font-family: headerfont;
+    margin-top: 20px;
+}
